@@ -3,24 +3,24 @@
   (c) 2022 jbeard.org
 */
 
-/* press-start-2p-regular - latin */
+/* smooch-sans-regular - latin */
 @font-face {
-  font-family: 'Press Start 2P';
+  font-family: 'Smooch Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/press-start/press-start-2p-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/smooch/smooch-sans-v4-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/press-start/press-start-2p-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/press-start/press-start-2p-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/press-start/press-start-2p-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/press-start/press-start-2p-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/press-start/press-start-2p-v12-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+       url('../fonts/smooch/smooch-sans-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/smooch/smooch-sans-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/smooch/smooch-sans-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/smooch/smooch-sans-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/smooch/smooch-sans-v4-latin-regular.svg#SmoochSans') format('svg'); /* Legacy iOS */
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Press Start 2P';
+  font-family: 'Smooch Sans';
 }
 
 body {
