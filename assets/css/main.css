@@ -1,8 +1,3 @@
-/*
-  jbeard.org website
-  (c) 2022 jbeard.org
-*/
-
 /* smooch-sans-regular - latin */
 @font-face {
   font-family: 'Smooch Sans';
@@ -24,9 +19,16 @@
 }
 
 body {
-  background: linear-gradient(20deg, #1C2C10, #2F551F, #467E2E, #66A23B, #81CD4B);
-  background-size: 400% 400%;
+  background: linear-gradient(180deg, #07110d, #122b22, #1e4436, #2c6651, #3f9374, #50b892, #6dd1b0);
+  background-size: 600% 600%;
   font-size: calc(26px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#main {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  color: #efefef;
 }
 
 #header a {
@@ -38,33 +40,3 @@ body {
   color: #AB2929;
 }
 
-#main {
-  text-align: center;
-  padding: 20px;
-  margin: 0 auto;
-  margin-top: 200px;
-  color: #efefef;
-}
-
-#content {
-  margin-top: 20px;
-  font-size: 24px;
-}
-
-#content ul {
-  list-style-type: none;
-  list-style-position: inside;
-}
-#content li {
-  margin: 8px 0 18px 0;
-}
-
-#content a {
-  color: #ABABAB;
-  text-decoration: none;
-}
-
-#content a:hover {
-  text-decoration: underline;
-  color: #fff;
-}
