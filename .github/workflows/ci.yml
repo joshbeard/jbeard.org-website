@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Minify
-        uses: anthonyftwang/minify-action@v1.0.1
+        uses: joshbeard/minify-action@updates
 
       - name: Upload Artifact
         uses: actions/upload-artifact@master
